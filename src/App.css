@@ -1,19 +1,17 @@
 .App {
   text-align: center;
 }
+body{
+  background-color: #282c34;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +22,90 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.login {
+  background-image: url(menu.jpg);
+  background-position: center;
+  width: 500px;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-login {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: 0;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.btn-signin {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  border: 0;
+  font-weight: bolder;
+  color: white;
+  background-color: cornflowerblue;
+  cursor: pointer;
+}
+
+.btn {
+  margin-bottom: 30px;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.signup {
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  background-color: aliceblue;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(200, 200, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+position: relative;
+}
+
+.inp2 {
+  margin-top: 10%;
+}
+
+.inp1 {
+
+  padding: 10px;
+  width: 300px;
+  border: 0;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  border-radius: 2px;
+}
+.inp13{
+  margin-left:-68px;
+  border-radius: 10px;
+  border: 0;
+}
+.btnback{
+  position: absolute;
+  left: 0;
+  border: 0;
+  box-shadow: 0px 0.1px 1px black;
+}
+.btnback:hover{
+width:40px;
+
+}
+.h6c{
+color: black;
+font-style: italic;
+text-shadow: 0px 2px 1px #282c34;
+
 }
